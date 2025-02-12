@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+export default function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -44,7 +44,7 @@ function App() {
           </button>
         </form>
         <p className="text-center text-sm text-gray-600 mt-4">
-          Don't have an account?{" "}
+          Do not have an account?
           <a href="#" className="text-blue-500 hover:underline">
             Sign Up
           </a>
@@ -53,5 +53,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
